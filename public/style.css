@@ -1,0 +1,105 @@
+.hFont
+{
+    font-style: oblique;
+    font-weight: lighter;
+    font-variant: small-caps;
+    color: rgb(27, 17, 83);
+   text-decoration-line: underline;
+
+    
+  
+}
+.headerMargins
+{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.headerBackground
+{
+    background-color: rgba(201, 152, 236, 0.645);
+    
+    
+}
+.alignCenter
+{
+    text-align: center;
+}
+
+ol:hover
+{
+    background-attachment: fixed;
+    background-color: rgba(204, 0, 255, 0.946);
+    text-transform: uppercase; 
+    font-size: 20px;
+    font-style: italic;
+}
+p:hover
+{
+    background-attachment: fixed;
+    background-color: rgba(201, 152, 236, 0.645);
+    text-transform: uppercase;
+   
+}
+p
+{
+    font-family: fantasy;
+    font-size: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+   
+    padding: 10px;
+}
+.olBorder
+{
+    border: 3px solid rgb(75, 14, 60);}
+
+    
+ .pBorder
+ {
+    border: 3px solid rgb(197, 135, 222);
+    
+ }
+
+ .divMargins
+ {
+     outline: 5px solid rgb(218, 148, 225);
+     background-color: rgba(201, 152, 236, 0.645);
+     margin-left: 50px;
+     margin-right: 50px;
+     margin-bottom: 20px;
+     padding: 20px;
+     
+ }
+ ol{
+    margin-bottom: 5px;
+    padding: 3px;
+   
+    margin-left: 40px;
+ }
+ 
+ .divFont
+ {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px ;
+ }
+
+ body
+ {
+    background-image: url(img/lavanda.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+ }
+
+ footer
+ {
+     text-align: center;
+     font-family: sans-serif;
+     font-size: 15px;
+     background-color: rgba(201, 152, 236, 0.645);
+     height: 30px;
+ }
+ 
