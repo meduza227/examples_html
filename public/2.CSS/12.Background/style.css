@@ -1,0 +1,59 @@
+body{
+    background-image: url(img/big-bang-theory.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.square{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 5px;
+    border: 2px solid red;
+}
+
+.backgroundColor{
+    background-color: lime;
+}
+
+.backgroundImage{
+    background-image:url(img/friends.jpg);
+}
+
+.backgroundImageNoRepeat{
+    background-image:url(img/html_css.png);
+    background-repeat: no-repeat;
+}
+
+.backgroundImageRepeatX{
+    background-image:url(img/lavanda.jpg);
+    background-repeat: repeat-x;
+}
+
+.backgroundImageRepeatY{
+    background-image:url(img/witcher.png);
+    background-repeat: repeat-y;
+}
+
+
+.backgroundSizeAuto{
+    background-image:url(img/Loki.jpg);
+    background-size: auto;
+}
+
+.backgroundSizeCover{
+    background-image:url(img/Loki.jpg);
+    background-size: cover;
+}
+
+
+.backgroundSizeContain{
+    background-image:url(img/Loki.jpg);
+    background-size: contain;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST">
+        First name <input type="text" name="first_name" placeholder="For example: Sara" title="Insert your name, please" required> <br>
+        Last name <input type="text" name="last_name"> <br>
+        E-mail <input type="email" name="email"> <br>
+        Password <input type="password" name="password"> <br>
+        Gender
+        <input type="radio" value="M" name="gender"> M
+        <input type="radio" value="F" name="gender"> F 
+        <br>
+        Graduate: <br>
+        <input type="checkbox" name="graduate[]" value="middle"> Middle <br> 
+        <input type="checkbox" name="graduate[]" value="license" checked> License <br> 
+        <input type="checkbox" name="graduate[]" value="master"> Master <br> 
+        <input type="checkbox" name="graduate[]" value="doctorate"> Doctorate <br> 
+
+        Sity: <br>
+        <select name="city">
+            <option value="Chisinau">Chisinau</option>
+            <option value="Balti">Balti</option>
+            <option value="Orhei">Orhei</option>
+            <option value="Edinet">Edinet</option>
+            <option value="Comrat">Comrat</option>
+        </select>
+        <br>
+        DATE OF BIRTH:
+        <input type="date" name="birthday">
+        <br>
+        Available for call:
+        <input type="time" name="call_time"/>
+        <br>
+        Phone number
+        <input type="tel" name="phone"> <br>
+
+        Biography:
+        <textarea name="biography" cols="30" rows="10"></textarea>
+        <br>
+        Photo bulletin:
+        <input type="file" name="card_id">
+        <br>
+        Desired Salary:
+        <input type="number" name="salary" value="100000" readonly>
+        <br>
+        Age:
+        <input type="range" name="age" min="18" max="99" value="30" disabled>
+        <br>
+        Hair color:
+        <input type="color" name="hair_color">
+         <br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
